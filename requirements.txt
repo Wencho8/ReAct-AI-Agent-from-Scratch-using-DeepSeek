@@ -1,0 +1,11 @@
+openai
+transformers
+python-dotenv
+fastapi
+uvicorn[standard]
+streamlit 
+requests
+wikipedia-api
+colorama
+
+
