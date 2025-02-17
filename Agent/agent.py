@@ -30,7 +30,7 @@ class Agent:
         load_dotenv()
         self.client = OpenAI(
             api_key=os.getenv("DEEPSEEK_API_KEY"),
-            base_url="https://api.deepinfra.com/v1/openai"
+            base_url=os.getenv("DEEPSEEK_BASE_URL")
         )
         self.model_name = "deepseek-ai/DeepSeek-V3"
         self.tools = {}
