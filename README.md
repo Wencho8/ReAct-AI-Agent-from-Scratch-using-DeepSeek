@@ -6,7 +6,7 @@ This repository contains a **ReAct (Reasoning + Acting) AI agent** built from sc
 ## 📌 Features
 ✅ **Reasoning Loop** built from scratch with prompt-based control  
 ✅ **Memory Management** using 🤗Transformers library to count tokens in formatted messages  
-✅ **Tool integration** scalable tool environment without using function-calling API features  
+✅ **Tool integration** with a scalable tool environment. Not using function-calling API features  
 ✅ **Streamlit UI** to interact with the agent and display its responses and reasoning process  
 ✅ **FastAPI backend** for handling chat requests from Streamlit
 
@@ -48,7 +48,6 @@ This will start the agent, allowing you to interact with it via the command line
 
 1️⃣ ***Start the FastAPI Backend***
 
-Start the FastAPI backend:
 ```bash
 cd Agent
 python -m uvicorn app:app --reload
@@ -56,7 +55,6 @@ python -m uvicorn app:app --reload
 
 2️⃣ ***Start the Streamlit UI***
 
-Start the Streamlit UI
 ```bash
 python -m streamlit run chat_ui.py
 ```
