@@ -2,6 +2,10 @@
 
 This repository contains a **ReAct (Reasoning + Acting) AI agent** built from scratch using **Python** and **DeepSeek**.
 
+For an in-depth explanation of this agent implementation read my medium article: 
+
+[ReAct AI Agent from Scratch using DeepSeek: Handling Memory & Tools without Frameworks](https://ai.gopubby.com/react-ai-agent-from-scratch-using-deepseek-handling-memory-tools-without-frameworks-cabda9094273)
+
 
 ## 📌 Features
 ✅ **Reasoning Loop** built from scratch with prompt-based control  
